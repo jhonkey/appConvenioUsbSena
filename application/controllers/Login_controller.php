@@ -17,7 +17,7 @@ class login_controller extends CI_controller {
     if ($resultado === true) {
       header('Location: inicio');
     } else {
-			$this->load->view('shared/scripts');
+			$this->load->view('plantilla/scripts');
 			$this->load->view('Login_view');
     }
 	}
